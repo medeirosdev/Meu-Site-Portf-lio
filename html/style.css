@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color: #4f4f4f;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+/* color #4f4f4f */
+
+html{
+    font-size: 67,5%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+body{
+    background-color: #f6f6f6;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#navp{
+    position:absolute;
+    top:0;
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    margin:1rem;
+    font-size: 1.4rem;
+}
+
+#nav1{
+    width:30vw;
+    text-align:left
+}
+
+#nav2{
+    width:70vw;
+    text-align: center;
+}
+
+#ul1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: 1rem;
+}
+
+.a1{
+    margin:2rem;
+    padding:1rem;
+}
+
+.a1:hover{
+    border-bottom: 3px solid #3a3a3a;
+}
+
+
+
+/*<!-----------------------------------nav menu--------------------------------------------------->*/
+
+main{
+    margin-top:10rem;
+    margin-left: 2rem;
+    margin-right: 0;
+    position: relative;
+    width:60vw
+}
+
+h3{
+    font-size:1.5rem;
+    margin-bottom: 1rem;
+}
+h1{
+    font-size:2.1rem;
+    margin-bottom: 1rem;
+}
+
+#p2{
+    
+    font-size: 1.1rem;
+    margin-top:0.5rem;
+    margin-bottom:0.5rem;
+}
+
+.button1{
+    margin-top:0.5rem;
+    margin-bottom:0.5rem;
+    padding:1rem 2rem;
+    background-color: #4f4f4f;
+    color:#f6f6f6;
+    font-family: Arial;
+    text-decoration: none;
+    border-radius: 0.6rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    transition: 0.5s;
+    
+}
+
+.button1:hover{
+    scale:1.1;
+    background-color: #383838;
+}
+
+#img1{
+    width: 25vw;
+    padding:0;
+    margin:0;
+    position:absolute;
+    transform: translate(300%,-50%)
+
+    
+}
