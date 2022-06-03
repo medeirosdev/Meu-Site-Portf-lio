@@ -51,6 +51,7 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: 1rem;
+    justify-content: space-around;
 }
 
 .a1{
@@ -61,13 +62,21 @@ body{
 .a1:hover{
     border-bottom: 3px solid #3a3a3a;
 }
+#logo{
+    padding: 1rem;
+}
+#logo:hover {
+    border-bottom: 3px solid #3a3a3a;
+    
+
+}
 
 
 
 /*<!-----------------------------------nav menu--------------------------------------------------->*/
 main{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 3fr));
 }
 
 
